@@ -1,0 +1,54 @@
+body{
+  background: linear-gradient(30deg, hsl(240, 98%, 24%), hsl(356, 100%, 41%));
+  background-size: 100%;
+  background-position: center;
+}
+.container{
+  width: 500px;
+  height: 300px;
+  margin: 200px auto;
+}
+.glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  gap: 15px;
+  font-family: monospace;
+}
+#mainText{
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-optical-sizing: auto;
+}
+#confirmPassword{
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+}
+#newPassword{
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+}
+#submitBtn{
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  cursor: pointer;
+}
